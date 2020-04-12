@@ -1,13 +1,11 @@
 def gcd(a, b):
-    while a != 0 and b != 0:
-        if a > b:
-            a = a % b
-        else:
-            b = b % a
-    return a + b
+    while b:
+        a %= b
+        a, b = b, a
+    return a
 
 
 if __name__ == '__main__':
-    a = 36
+    a = -36
     b = 48
     print(gcd(a, b))
