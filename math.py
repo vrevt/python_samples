@@ -1,5 +1,7 @@
 import math
 
+print(math.pi)
+
 cost = -2.99
 print(cost, math.trunc(cost), int(cost))
 
