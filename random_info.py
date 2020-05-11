@@ -5,7 +5,7 @@ random.choice(some_collection or set of elements)
 
 len() - global function
 
-INT_MAX - 2**31 - 1
+
 
 
 
