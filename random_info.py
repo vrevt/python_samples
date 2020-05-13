@@ -6,7 +6,7 @@ random.choice(some_collection or set of elements)
 len() - global function
 
 
-
+print("A") if a > b else print("B")
 
 
 
