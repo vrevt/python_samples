@@ -25,5 +25,11 @@ print(area)
 number = math.log(10, math.e)
 print(number)
 
+math.pi
+
+math.log(10)
+
+math.exp(10)
+
 
 
