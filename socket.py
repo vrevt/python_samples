@@ -1,3 +1,5 @@
+# for test start python file and use nc localhost 5000 to connect
+
 import socket 
 from select import select
 
