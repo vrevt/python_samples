@@ -54,3 +54,10 @@ print(x)
 # eggs;sausage;ham;toast
 
 
+# way of format
+s = "That is %d %s bird!" % (1, 'appear')
+print(s)
+# That is 1 appear bird!
+
+
+
