@@ -38,3 +38,7 @@ print(a.replace("H", "J"))
 # reverse y
 y = y[::-1]
 
+title = "Meaning " "of" " Life" # Неявная конкатенация
+print(title)
+# Meaning of Life
+
