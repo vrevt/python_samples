@@ -35,8 +35,10 @@ print(a.upper())
 print(a.replace("H", "J"))
 # Jello, World!
 
-# reverse y
-y = y[::-1]
+# reverse S
+S = 'hello'
+S[::-1]
+# 'olleh'
 
 title = "Meaning " "of" " Life" # Неявная конкатенация
 print(title)
