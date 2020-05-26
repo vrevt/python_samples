@@ -35,12 +35,22 @@ print(a.upper())
 print(a.replace("H", "J"))
 # Jello, World!
 
+
 # reverse S
 S = 'hello'
 S[::-1]
 # 'olleh'
 
-title = "Meaning " "of" " Life" # Неявная конкатенация
+
+# Неявная конкатенация
+title = "Meaning " "of" " Life" 
 print(title)
 # Meaning of Life
+
+
+# join method
+x = ';'.join(['eggs', 'sausage', 'ham', 'toast'])
+print(x)
+# eggs;sausage;ham;toast
+
 
