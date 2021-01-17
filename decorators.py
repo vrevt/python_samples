@@ -64,3 +64,24 @@ def fetch_page(url):
 
 print(fetch_page('https://google.com'))
 
+
+# sample 4
+
+def method_decorator(func):
+	def wrapper(self, param):
+		param -= 3
+		return func(self, param)
+	return wrapper
+
+
+class A:
+	def __init__(self):
+		self.count = 30
+	@method_decorator
+	def print_count(self, param):
+		print(f"count = {self.count + param}")
+
+
+a = A()
+a.print_count(-3)
+
