@@ -54,10 +54,17 @@ print(x)
 # eggs;sausage;ham;toast
 
 
-# way of format
+# formatting method
 s = "That is %d %s bird!" % (1, 'appear')
 print(s)
 # That is 1 appear bird!
+
+
+# formatting string using dict
+s = "%(n)d %(x)s" % {"n":24, "x":"november"}
+print(s)
+# 24 november
+
 
 
 
