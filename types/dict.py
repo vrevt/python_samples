@@ -1,3 +1,10 @@
+d = {'a': 1, 'b': 3, 'c': 2}
+for key in d:
+  print(key, d[key])
+
+for (key, value) in d.items():
+  print(key, value)
+  
 new_way = dict(a=5, b=6)
 print(f'new way: {new_way}')
 
