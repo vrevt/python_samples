@@ -1,2 +1,6 @@
 .DS_Store
 .idea/
+test.py
+test2.py
+__pycache__/
+imports/__pycache__/
