@@ -4,3 +4,4 @@ test.py
 test2.py
 __pycache__/
 imports/__pycache__/
+/pickle&shelve/tmp.txt
