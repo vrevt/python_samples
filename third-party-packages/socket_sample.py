@@ -1,6 +1,6 @@
 # for test start python file and use nc localhost 5000 to connect
 
-import socket 
+import socket
 from select import select
 
 to_monitor = []
@@ -42,4 +42,4 @@ def event_loop():
 if __name__ == '__main__':
 	to_monitor.append(server_socket)
 	event_loop()
-  	#accept_connection(server_socket)
+	# accept_connection(server_socket)
