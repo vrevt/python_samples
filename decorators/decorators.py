@@ -6,11 +6,9 @@ def deco(func):
 		print('2')
 	return decorator
 
-
 @deco
 def hello():
 	print('hello')
-
 
 hello()
 
@@ -44,6 +42,7 @@ def benchmark(iters):
 		import time
 
 		def wrapper(*args, **kwargs):
+			global return_value
 			total = 0
 			for i in range(iters):
 				start = time.time()

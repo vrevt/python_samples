@@ -1,3 +1,8 @@
+import os
+
+from absl import app
+
+
 @app.route("/delete", methods=['POST'])
 def delete():
     cmd = "docker container prune -f"

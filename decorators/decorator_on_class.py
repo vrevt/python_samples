@@ -12,6 +12,7 @@ class tracer:
 def spam(a, b, c):
     print(a, b, c)
 
-spam(1, 2, 3)
-spam('a', 'b', 'c')
-spam(4, 5, 6)
+if __name__ == '__main__':
+    spam(1, 2, 3)
+    spam('a', 'b', 'c')
+    spam(4, 5, 6)
