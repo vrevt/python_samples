@@ -1,3 +1,6 @@
+import datetime
+import time
+
 d = datetime.date(2020, 1, 1)
 print(d.year) # 2020
 print(d.day)  # 1
@@ -7,7 +10,7 @@ print(d.month) # 1
 print(datetime.date.today())
 # 2020-04-23
 
-Time.sleep(xx)
+time.sleep(30)
 # Hello, Yan!
 
 
@@ -23,7 +26,7 @@ print(datetime.datetime.today())
 # 2020-04-23 01:06:11.705315
 
 
-d = datetime.datetime(2020, 04, 23, 1, 2, 3)
+d = datetime.datetime(2020, 0o4, 23, 1, 2, 3)
 print(d.second) # 3
 print(d.year) # 2020
 

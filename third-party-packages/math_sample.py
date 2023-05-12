@@ -11,8 +11,8 @@ print(cost, math.floor(cost))
 cost = -1.1
 print(cost, math.ceil(cost))
 
-pow()
-sqrt()
+pow(2, 5)
+math.sqrt(1212)
 
 
 radius = 30
@@ -25,24 +25,24 @@ print(area)
 number = math.log(10, math.e)
 print(number)
 
-math.pi
+print(f'{math.pi=}')
 
-math.log(10)
+print(f'{math.log(10)}')
 
-math.exp(10)
+print(f'{math.exp(10)}')
 
 
- # Синус, тангенс, косинус
- print(math.sin(2 * math.pi / 180))
+# Синус, тангенс, косинус
+print(math.sin(2 * math.pi / 180))
 # 0.034899496702500969
 
 
- # Квадратный корень
+# Квадратный корень
 print(math.sqrt(144), math.sqrt(2))
 # 12.0 1.4142135623730951
 
- # Абсолютное значение, сумма
- print(abs(-42.0), sum((1, 2, 3, 4)))
+# Абсолютное значение, сумма
+print(abs(-42.0), sum((1, 2, 3, 4)))
 # 42.0 10
 
 
