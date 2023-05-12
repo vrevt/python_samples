@@ -1,4 +1,4 @@
-from classA import A
+from class_a import A
 import shelve
 
 bob = A('Ivan', 22, 'D6')
