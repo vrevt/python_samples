@@ -1,5 +1,3 @@
-# ToDo
-
 from abc import ABCMeta, abstractmethod
 
 class Super(metaclass=ABCMeta):
