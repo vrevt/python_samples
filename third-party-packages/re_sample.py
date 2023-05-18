@@ -1,3 +1,10 @@
+'''
+'write only code'
+top article:
+https://habr.com/ru/articles/349860/
+'''
+
+
 import re
 def check_email(addr):
     res = re.match('^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)+$', addr)
