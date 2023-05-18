@@ -1,0 +1,18 @@
+install psql
+
+connect to psql:
+sudo -u username psql
+
+db creation:
+CREATE DATABASE test
+
+commands:
+    db connection: \c test
+    db list: \l
+    table list: \dt
+    exit: \q
+
+transactions:
+begin;
+update, insert etc
+commit;
