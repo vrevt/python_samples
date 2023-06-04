@@ -3,5 +3,5 @@
 test.py
 test2.py
 __pycache__/
-imports/__pycache__/
-/third-party-packages/pickle&shelve/tmp.txt
+python/imports/__pycache__/
+/python/third-party-packages/pickle&shelve/tmp.txt
