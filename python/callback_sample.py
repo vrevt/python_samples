@@ -8,4 +8,4 @@ def file_len(filepath, callback):
     callback(file_length)
 
 if __name__ == '__main__':
-    file_len("test.py", func_callback)
+    file_len("../test.py", func_callback)

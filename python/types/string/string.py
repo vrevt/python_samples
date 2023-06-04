@@ -1,3 +1,4 @@
+s = 'lsdhfxxfeoeb'
 s.find('xx') # => int
 s = 'abacaba'
 print(s.find('b'))
