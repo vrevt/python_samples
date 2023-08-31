@@ -1,4 +1,4 @@
-# for test start python file and use nc localhost 5000 to connect
+# for test start Python file and use nc localhost 5000 to connect
 
 import socket
 from select import select
@@ -36,7 +36,6 @@ def event_loop():
 				accept_connection(sock)
 			else:
 				send_message(sock)
-
 
 
 if __name__ == '__main__':
