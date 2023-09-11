@@ -8,10 +8,12 @@ for i in a:
 
 # long entry with yield
 
+
 def gen(start, finish):
 	while (start < finish):
 		yield start * 0.33
 		start += 1
+
 
 a = gen(1, 4)
 print(a)
